@@ -1,0 +1,9 @@
+1. Subir el archivo ipynb a Google Colab
+
+2. Subir anotaciones.txt (dentro de inputs) a /content/ y listo
+
+3. Ejecutar código (tener cuidado con los lotes porque están 64)
+
+4. Ver resultados en outputs (se encuentra fuera de /content/, en root). 
+- Se pueden ver los frames con las bounding boxes y person_counts.json. 
+- Las predicciones filtradas se encuentran en /content/ como filtered_predictions.json
